@@ -1,0 +1,147 @@
+
+/* image1 */
+
+body {
+    font-family: "Dosis", serif;
+}
+
+.wheel {
+    height: 400px;
+    width: 400px;
+    float: inline-end;
+}
+
+.color {
+    color:#ff4d00;
+    position: relative;
+    padding-top: 5%;
+}
+
+ul {
+    position: fixed;
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    word-spacing: 100px;
+    z-index: 1;
+    display: ruby;
+    color: green;
+}
+
+
+/* table 1 */
+h1 {
+    text-align: center;
+}
+
+table, 
+td,
+th {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 100px;
+    width: 500px;
+    position: relative;
+}
+
+.primary_red {
+    background-color: red
+}
+
+.secondary_red {
+    background-color: orange;
+}
+
+.tertiary_red {
+    background-color: #ff4d00;
+}
+
+.primary_green {
+    background-color: green;
+}
+
+.secondary_green {
+    background-color: yellow;
+}
+
+.tertiary_green {
+    background-color: greenyellow;
+}
+
+.primary_blue {
+    background-color: blue;
+}
+
+.secondary_blue {
+    background-color: purple;
+}
+
+.tertiary_blue {
+    background-color: #b266ff;
+}
+
+/*  ref & text*/
+
+.types {
+    color: green;
+}
+
+ol {
+    color: greenyellow;
+    background-color: gray;
+    border-radius: 10%;
+    display: inline-block;
+}
+
+.uses {
+    color: yellow;
+    text-indent: 150px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: gray;
+}
+
+/* paragraph */
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a {
+    display: inline-block;
+
+}
+
+div{
+    font-size: 300%;
+    font-family: Brush Script MT;
+    color: blue;
+    position: sticky;
+}
+
+p {
+    color: purple;
+    display: inline;
+}
+
+/* Table 2 */
+
+.hsl_red1 {
+    background-color: hsl(0, 100%, 75%);
+}
+
+.hsl_red2 {
+    background-color: hsl(0, 50%, 50%);
+}
+
+.hsl_red3 {
+    background-color: hsl(0, 100%, 25%);
+}
+
+.hsl_red4 {
+    background-color: hsl(0, 25%, 75%);
+}
