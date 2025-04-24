@@ -196,6 +196,31 @@ p {
     background-color: hsl(0, 100%, 25%);
 }
 
+
+  /* button Skeuomorphic styling bare bones
+  
+  button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  margin-top: 5px;      makes button look like it's
+  margin-bottom: 3px;     moving down
+  color: black;
+  box-shadow: 0px 0px;     looks like box shadow disappears
+}
+  
+  */
+
+
 .hsl_red4 {
     background-color: hsl(0, 25%, 75%);
 }
